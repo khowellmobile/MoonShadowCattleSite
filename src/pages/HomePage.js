@@ -1,7 +1,9 @@
+import CenterTitle from "../components/content/CenterTitle";
+
 function HomePage() {
   return (
     <div>
-      <h1>HomePage</h1>
+      <CenterTitle />
     </div>
   );
 }

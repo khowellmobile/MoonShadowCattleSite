@@ -1,0 +1,6 @@
+.backgroundDiv {
+    background-image: url('../../images/scenicImage0.jpg');
+    background-size: cover;
+    height: 100vh;
+    outline: solid 5px red;
+};
