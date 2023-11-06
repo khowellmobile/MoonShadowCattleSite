@@ -1,0 +1,34 @@
+.content {
+    height: 100%;
+}
+
+.parallaxContainer1 {
+    /* The image used */
+    background-image: url("../images/scenicImage0.jpg");
+  
+    min-height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .parallaxContainer2 {
+    /* The image used */
+    background-image: url("../images/scenicImage1.jpg");
+  
+    min-height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .buffer {
+    box-shadow: 0 0px 0px 200px rgba(0, 0, 0, 1);
+  }
