@@ -9,14 +9,24 @@
   align-items: center;
 }
 
-title {
+.title {
+  font-size: 5rem;
+  position: relative;
+  top: -10px;
   color: white;
 }
 
-text {
+.text {
+  font-size: 1.5rem;
+  position: relative;
+  top: 10px;
   color: white;
+  max-width: 30rem;
 }
 
-link {
+.link {
+  font-size: 2rem;
+  position: relative;
+  top: 30px;
   color: white;
 }
