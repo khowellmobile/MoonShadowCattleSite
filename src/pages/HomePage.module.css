@@ -1,10 +1,8 @@
 .parallaxContainer1 {
-    /* The image used */
     background-image: url("../images/scenicImage0.jpg");
   
     min-height: 100vh;
   
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,12 +12,10 @@
 
 
   .parallaxContainer2 {
-    /* The image used */
     background-image: url("../images/scenicImage1.jpg");
   
     min-height: 100vh;
   
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
