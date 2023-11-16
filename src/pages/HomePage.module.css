@@ -1,0 +1,36 @@
+.parallaxContainer1 {
+    background-image: url("../images/scenicImage0.jpg");
+  
+    min-height: 100vh;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+
+  .parallaxContainer2 {
+    background-image: url("../images/scenicImage1.jpg");
+  
+    min-height: 100vh;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .buffer {
+    position: relative;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .exampleDiv {
+    width: 100%;
+    min-height: 100vh;
+    background-color: red;
+  }
+

@@ -1,17 +1,23 @@
 import CenterTitle from "../components/content/CenterTitle";
 import Story from "../components/content/Story";
-import Background from "../components/layout/Background";
 import MainNavigation from "../components/layout/MainNavigation";
-import img0 from "../images/scenicImage0.jpg";
+import CattleCards from "../components/content/CattleCards";
+
+import classes from "./HomePage.module.css";
 
 function HomePage() {
   return (
     <div>
-      <Background backgroundImage={img0}>
+      <div className={classes.parallaxContainer1}>
         <MainNavigation />
         <CenterTitle />
-      </Background>
-      <Story />
+      </div>
+      <div className={classes.buffer}>
+        <Story />
+      </div>
+      <div className={classes.parallaxContainer2}>
+        <CattleCards />
+      </div>
     </div>
   );
 }
