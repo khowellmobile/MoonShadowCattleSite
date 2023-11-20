@@ -4,6 +4,7 @@ import MainNavigation from "../components/layout/MainNavigation";
 import CattleCards from "../components/content/CattleCards";
 
 import classes from "./HomePage.module.css";
+import CardCarousel from "../components/content/CardCarousel";
 
 function HomePage() {
   return (
@@ -16,7 +17,7 @@ function HomePage() {
         <Story />
       </div>
       <div className={classes.parallaxContainer2}>
-        <CattleCards />
+        <CardCarousel />
       </div>
     </div>
   );
