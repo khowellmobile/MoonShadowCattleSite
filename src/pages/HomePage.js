@@ -16,6 +16,7 @@ function HomePage() {
         <Story />
       </div>
       <div className={classes.parallaxContainer2}>
+        <h1 className={classes.carouselTitle}>Meet the Cattle</h1>
         <CardCarousel />
       </div>
     </div>

@@ -25,6 +25,8 @@
     align-items: center;
     justify-content: center;
 
+    flex-direction: column;
+
   }
 
   .buffer {
@@ -36,5 +38,12 @@
     width: 100%;
     min-height: 100vh;
     background-color: red;
+  }
+
+  .carouselTitle {
+    position: relative;
+    top: -50px;
+    color: white;
+    font-size: 100px;
   }
 
