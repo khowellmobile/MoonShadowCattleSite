@@ -1,9 +1,9 @@
 import CenterTitle from "../components/content/CenterTitle";
 import Story from "../components/content/Story";
 import MainNavigation from "../components/layout/MainNavigation";
-import CattleCards from "../components/content/CattleCards";
 
 import classes from "./HomePage.module.css";
+import CardCarousel from "../components/content/CardCarousel";
 
 function HomePage() {
   return (
@@ -16,7 +16,8 @@ function HomePage() {
         <Story />
       </div>
       <div className={classes.parallaxContainer2}>
-        <CattleCards />
+        <h1 className={classes.carouselTitle}>Meet the Cattle</h1>
+        <CardCarousel />
       </div>
     </div>
   );
