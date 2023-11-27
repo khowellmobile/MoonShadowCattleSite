@@ -6,11 +6,19 @@
     top: 50px;
 }
 
-.image {
+.imgPreset1 {
     width: 100%;
-    height: 500px;
+    height: 600px;
     object-fit: cover;
     border-radius: 15px;
+    object-position: center 20%;
 }
 
+.imgPreset2 {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 15px;
+    object-position: center 60%;
+}
 
