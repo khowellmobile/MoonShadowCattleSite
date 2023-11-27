@@ -3,13 +3,18 @@ import classes from "./Footer.module.css";
 function Footer() {
   return (
     <div className={classes.footerDiv}>
-      <div>
-        <h3>Location</h3>
-        <p class="text-white">45 Example st, City OH 45065</p>
+      <div className={classes.linkDiv}>
+        <a className={classes.link} href="https://www.w3schools.com">
+          Facebook
+        </a>
+        <a className={classes.link} href="https://www.w3schools.com">
+          Facebook
+        </a>
       </div>
       <div>
-        <h3>Location</h3>
-        <p class="text-white">45 Example st, City OH 45065</p>
+        <p className={classes.address} class="text-white">
+          MOONSHADOW CATTLE, 8390 172 STREET, SURREY, BC, V4N 3G4, CANADA
+        </p>
       </div>
     </div>
   );

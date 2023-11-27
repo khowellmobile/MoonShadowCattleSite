@@ -4,6 +4,7 @@ import Story from "../components/content/Story";
 import classes from "./HomePage.module.css";
 import CardCarousel from "../components/content/CardCarousel";
 import MainNav from "../components/layout/MainNav";
+import Footer from "../components/layout/Footer";
 
 function HomePage() {
   return (
@@ -16,9 +17,10 @@ function HomePage() {
         <Story />
       </div>
       <div className={classes.parallaxContainer2}>
-        <h1 className={classes.carouselTitle}>Meet the Cattle</h1>
+        <h1 className={classes.carouselTitle}>Meet the Mammals</h1>
         <CardCarousel />
       </div>
+      <Footer />
     </div>
   );
 }
