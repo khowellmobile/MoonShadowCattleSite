@@ -1,0 +1,9 @@
+.footerDiv {
+  width: 100%;
+  min-height: 25vh;
+  background-color: darkslategray;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
