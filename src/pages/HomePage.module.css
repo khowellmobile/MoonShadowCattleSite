@@ -1,49 +1,52 @@
 .parallaxContainer1 {
-    background-image: url("../images/SunsetOnFarm.jpg");
-  
-    min-height: 100vh;
-  
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../images/SunsetOnFarm.jpg");
 
-  }
+  min-height: 100vh;
 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .parallaxContainer2 {
-    background-image: url("../images/Sleepy.jpg");
-  
-    min-height: 100vh;
-  
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.parallaxContainer2 {
+  background-image: url("../images/Sleepy.jpg");
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  min-height: 100vh;
 
-    flex-direction: column;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  .buffer {
-    position: relative;
-    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
-  }
+  flex-direction: column;
+}
 
-  .exampleDiv {
-    width: 100%;
-    min-height: 100vh;
-    background-color: red;
-  }
+.buffer {
+  position: relative;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
 
-  .carouselTitle {
-    position: relative;
-    top: -50px;
-    color: white;
-    font-size: 100px;
-  }
+.exampleDiv {
+  width: 100%;
+  min-height: 100vh;
+  background-color: red;
+}
 
+.carouselTitle {
+  position: relative;
+  color: white;
+  font-size: 100px;
+  top: 50px;
+}
+
+.carouselPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

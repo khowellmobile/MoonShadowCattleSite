@@ -8,19 +8,34 @@ import Footer from "../components/layout/Footer";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 function HomePage() {
+  var speed1 = -0.2;
+  var speed2 = 0.0;
   return (
     <div>
-      <Parallax pages={2}>
+      <Parallax pages={2.5}>
         <ParallaxLayer
-          offset={0}
-          //Something is wrong here. img0 reading in as text not variable
-          style={{ backgroundImage: 'url(${img0})', backgroundSize: "cover" }}
+          style={{
+            backgroundImage: `url(${img0})`,
+            backgroundSize: "cover",
+            position: "absolute",
+            top: "0px",
+          }}
+          speed={speed1}
         >
           <MainNav />
           <CenterTitle />
         </ParallaxLayer>
-        <ParallaxLayer offset={1}>
-          <h1>Bye</h1>
+        <ParallaxLayer offset={1} sticky={{ start: 1, end: 1.2 }}>
+          <Story />
+        </ParallaxLayer>
+        <ParallaxLayer
+          offset={1.5}
+          style={{ backgroundImage: `url(${img0})`, backgroundSize: "cover" }}
+        >
+          <div className={classes.carouselPage}>
+            <h1 className={classes.carouselTitle}>Meet the Mammals</h1>
+            <CardCarousel />
+          </div>
         </ParallaxLayer>
       </Parallax>
     </div>
