@@ -1,0 +1,17 @@
+.logo {
+  width: 100%;
+}
+
+.outline {
+    outline: solid red 5px;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.blackAndWhiteImage {
+  filter: grayscale(100%) brightness(100);
+}
