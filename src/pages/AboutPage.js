@@ -5,7 +5,7 @@ import Card from "react-bootstrap/Card";
 
 function AboutPage() {
   return (
-    <div className={classes.topDiv} style={{ backgroundColor: "black" }}>
+    <div className={classes.topDiv}>
       <MainNav />
       <div>hi</div>
       <div>bye</div>

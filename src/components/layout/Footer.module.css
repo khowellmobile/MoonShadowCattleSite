@@ -1,7 +1,7 @@
 .footerDiv {
   width: 100%;
   min-height: 40vh;
-  background-color: rgb(40, 40, 40);
+  background-color: #003e29;
 
   display: flex;
   justify-content: center;
