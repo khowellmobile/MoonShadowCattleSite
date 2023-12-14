@@ -19,11 +19,23 @@ html {
   height: 40rem;
   object-fit: cover;
   border-radius: 15px;
+  border: none;
 }
 
-.card {
+.pictureCard {
   width: 40rem;
   height: 40rem;
   border-radius: 15px;
   border: none;
+}
+
+.itemCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutRow {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
