@@ -25,7 +25,7 @@ function AboutPage() {
           </Col>
           <Col xs={12} s={12} md={6} lg={6} class='text-center'>
             <div className={classes.contentDiv}>
-              <h1 className={classes.bodyHeader}> Hello </h1>
+              <h1 className={classes.bodyHeader}> Header </h1>
               <p className={classes.bodyText}>
                 Welcome to our farm, where Farmer John's lifelong dedication to
                 sustainable agriculture comes to life. With weathered hands and
