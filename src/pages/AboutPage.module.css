@@ -1,0 +1,77 @@
+.topDiv {
+  width: 100%;
+  height: 80vh;
+  background-color: rgb(40, 40, 40);
+}
+
+.imgDiv {
+  background-image: url("../images/Sleepy.jpg");
+  width: 100%;
+  height: 250px;
+}
+
+html {
+  background-color: rgb(40, 40, 40);
+}
+
+.imgPreset1 {
+  width: 100%;
+  height: 40rem;
+  object-fit: cover;
+  border-radius: 15px;
+  border: none;
+}
+
+.pictureCard {
+  width: 40rem;
+  height: 40rem;
+  border-radius: 15px;
+  border: none;
+}
+
+.itemCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutRow {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  border: solid 5px white
+}
+
+.bodyText {
+  color: white;
+  font-size: 18px;
+  max-width: 90%;
+  position: relative;
+  top: 7rem;
+  border: solid 5px white;
+}
+
+.bodyHeader {
+  color: white;
+  position: relative;
+  top: 5rem;
+  border: solid 5px white
+}
+
+@media (max-width: 768px) {
+  .bodyText {
+    font-size: 12px;
+    top: 0; 
+  }
+
+  .bodyHeader {
+    font-size: 20px;
+    top: 1rem; 
+  }
+}
+
+.contentDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
