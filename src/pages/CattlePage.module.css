@@ -1,0 +1,7 @@
+.row {
+    outline: red solid 3px;
+}
+
+.col {
+    outline: blue solid 3px;
+}

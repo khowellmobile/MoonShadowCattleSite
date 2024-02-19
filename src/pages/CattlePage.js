@@ -13,17 +13,17 @@ function CattlePage() {
     <div>
       <MainNav />
       <Container fluid>
-        <Row xs={2} s={2} md={4} lg={4} className={classes.aboutRow}>
-          <Col xs={6} s={6} md={3} lg={3}>
+        <Row xs={2} s={2} md={4} lg={4}>
+          <Col xs={6} s={6} md={3} lg={3} className={`row justify-content-center ${classes.col}`}>
             <CattleCard />
           </Col>
-          <Col xs={6} s={6} md={3} lg={3}>
+          <Col xs={6} s={6} md={3} lg={3} className={`row justify-content-center ${classes.col}`}>
             <CattleCard />
           </Col>
-          <Col xs={6} s={6} md={3} lg={3}>
+          <Col xs={6} s={6} md={3} lg={3} className={`row justify-content-center ${classes.col}`}>
             <CattleCard />
           </Col>
-          <Col xs={6} s={6} md={3} lg={3}>
+          <Col xs={6} s={6} md={3} lg={3} className={`row justify-content-center ${classes.col}`}>
             <CattleCard />
           </Col>
         </Row>
