@@ -13,17 +13,31 @@ function CattlePage() {
     <div>
       <MainNav />
       <Container fluid>
-        <Row xs={2} s={2} md={4} lg={4}>
-          <Col xs={6} s={6} md={3} lg={3} className={`row justify-content-center ${classes.col}`}>
+        <Row xs={2} s={2} md={4} lg={4} className={`mt-3 me-md-3 ms-md-3 ${classes.row}`}>
+          <Col xs={6} s={6} md={3} lg={3} className={` mb-3 ${classes.col}`}>
             <CattleCard />
           </Col>
-          <Col xs={6} s={6} md={3} lg={3} className={`row justify-content-center ${classes.col}`}>
+          <Col xs={6} s={6} md={3} lg={3} className={` mb-3 ${classes.col}`}>
             <CattleCard />
           </Col>
-          <Col xs={6} s={6} md={3} lg={3} className={`row justify-content-center ${classes.col}`}>
+          <Col xs={6} s={6} md={3} lg={3} className={` mb-3 ${classes.col}`}>
             <CattleCard />
           </Col>
-          <Col xs={6} s={6} md={3} lg={3} className={`row justify-content-center ${classes.col}`}>
+          <Col xs={6} s={6} md={3} lg={3} className={` mb-3 ${classes.col}`}>
+            <CattleCard />
+          </Col>
+        </Row>
+        <Row xs={2} s={2} md={4} lg={4} className={`me-md-3 ms-md-3 ${classes.row}`}>
+          <Col xs={6} s={6} md={3} lg={3} className={` mb-3 ${classes.col}`}>
+            <CattleCard />
+          </Col>
+          <Col xs={6} s={6} md={3} lg={3} className={` mb-3 ${classes.col}`}>
+            <CattleCard />
+          </Col>
+          <Col xs={6} s={6} md={3} lg={3} className={` mb-3 ${classes.col}`}>
+            <CattleCard />
+          </Col>
+          <Col xs={6} s={6} md={3} lg={3} className={` mb-3 ${classes.col}`}>
             <CattleCard />
           </Col>
         </Row>
